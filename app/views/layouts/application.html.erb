@@ -9,7 +9,9 @@
 <body>
   <%= link_to "Home", root_path %>
   <%= link_to "About Us", about_path %>
-  <%= yield %>
-
+  <div class="container">
+       <%= yield %>
+  </div>
+ <%= render 'layouts/header' %>
 </body>
 </html>

@@ -121,7 +121,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 4.1.1)
   sass-rails (~> 4.0.3)
-  sdoc (~> 0.4.0)
+  sdoc
   spring
   sqlite3
   turbolinks
