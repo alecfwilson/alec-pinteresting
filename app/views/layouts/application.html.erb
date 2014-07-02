@@ -3,16 +3,14 @@
 <head> <%# Applies to entire application - pages are loaded within this %>
   <title>Pinteresting</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' =>	true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <%= render 'layouts/header' %>
-  <%= link_to "Home", root_path %>
-  <%= link_to "About Us", about_path %>
   <div class="container">
-       <%= yield %>
+    <%= yield %>
   </div>
-
 </body>
 </html>
