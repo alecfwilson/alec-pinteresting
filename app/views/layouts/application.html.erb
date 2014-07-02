@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> <%# Applies to entire application - pages are loaded within this %>
   <title>Pinteresting</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+  <%= link_to "Home", root_path %>
+  <%= link_to "About Us", about_path %>
+  <%= yield %>
 
 </body>
 </html>
