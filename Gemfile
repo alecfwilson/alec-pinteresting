@@ -10,6 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'devise', '~> 3.1.0.rc2'
+gem 'swiftype'
+gem 'delayed_job_active_record'
 
 group :doc do
 	gem 'sdoc', require: false          
