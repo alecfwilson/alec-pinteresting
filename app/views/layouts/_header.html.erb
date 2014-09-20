@@ -17,7 +17,6 @@
     <ul class="nav navbar-nav navbar-right">
       <li><%= link_to "Home", root_path %></li>
       <li><%= link_to "About", about_path %></li>
-      <li><%= link_to "One Hour Search", "https://dl.dropboxusercontent.com/u/33789173/omh-challenge/index.html" %></li>
       <li><%= link_to "Account Settings", edit_user_registration_path %></li>
       <% if user_signed_in? %>
         <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
