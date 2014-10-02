@@ -23,13 +23,15 @@
       <% else %>
         <li><%= link_to "Sign in", new_user_session_path %></li>
       <% end %>
-      
-
+        
       <!-- Adds Swiftype Search not using simple overlay -->
       <!-- To change configuration, use Swiftype install dashboard-->
-      <li><form>
-        <input type="text" id="st-search-input" class="st-search-input" />
-      </form></li>      
+      <div itemscope itemtype="http://schema.org/WebSite">
+        <li><form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+          <meta itemprop="target" content="http://alec-pinteresting.com/#stq={query}"/>
+          <input itemprop="query-input" type="text" id="st-search-input" class="st-search-input" name="stq"/>
+        </form></li>
+      </div>     
 
       <!-- Adds Swiftype Search -->
       <li><script type="text/javascript">
