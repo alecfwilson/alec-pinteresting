@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby 'ruby 2.1.3p242'
+
 gem 'rails', '4.1.1'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
