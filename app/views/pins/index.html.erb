@@ -26,5 +26,5 @@
 <br>
 <br>
 <Strong>ASPIRATIONAL WORDS</strong>
-  <p>Reload the page for a random aspirational word<p>
-<%= @pins.sample.description %>
+  <p>Click the button for a random word, chosen from your pins<p>
+<p><%= link_to @pins.sample.description, pins_path, class: "btn btn-primary btn-lg" %></p>
