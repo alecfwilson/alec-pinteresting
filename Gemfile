@@ -11,6 +11,9 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'omniauth'
 gem 'devise', '~> 3.1.0.rc2'
+gem 'mixpanel-ruby'
+gem 'sitemap_generator'
+gem 'whenever', :require => false
 
 group :doc do
 	gem 'sdoc', require: false          
