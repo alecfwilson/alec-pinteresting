@@ -27,10 +27,12 @@
       
       <!-- Adds Swiftype Search not using simple overlay -->
       <!-- To change configuration, use Swiftype install dashboard-->
-        <li><form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
-          <meta itemprop="target" content="http://alec-pinteresting.com/#stq={query}"/>
-          <input itemprop="query-input" type="text" id="st-search-input" class="st-search-input" name="query"/>
-        </form>    
+        <li itemscope itemtype="http://schema.org/WebSite">
+          <meta itemprop="url" content="http://alec-pinteresting.com"/>
+          <form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+            <meta itemprop="target" content="http://alec-pinteresting.com/#stq={query}"/>
+            <input itemprop="query-input" type="text" id="st-search-input" class="st-search-input" name="query"/>
+          </form>    
 
       <!-- Adds Swiftype Search -->
       <script type="text/javascript">
