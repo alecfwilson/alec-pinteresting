@@ -12,9 +12,9 @@
     <% @pins.each do |pin| %>
         <tr>
           <td class="btn btn-default btn-sm pin"><%= pin.description %></td>
-          <td><%= link_to 'Show', pin, class: "btn btn-primary btn-xs" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td><%= link_to 'Edit', edit_pin_path(pin), class: "btn btn-primary btn-xs" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-          <td><%= link_to 'Destroy', pin, class: "btn btn-primary btn-xs", method: :delete, data: { confirm: 'Are you sure?' } %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><%= link_to 'Show', pin, class: "btn btn-primary btn-xs crud" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><%= link_to 'Edit', edit_pin_path(pin), class: "btn btn-primary btn-xs crud" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td><%= link_to 'Destroy', pin, class: "btn btn-primary btn-xs crud", method: :delete, data: { confirm: 'Are you sure?' } %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
     <% end %>
   </tbody>
