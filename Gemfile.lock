@@ -52,8 +52,6 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.1)
-    fortitude (0.9.1)
-      activesupport (>= 3.0)
     hashie (3.3.1)
     hike (1.2.3)
     i18n (0.6.9)
@@ -76,10 +74,6 @@ GEM
       hashie (>= 1.2, < 4)
       rack (~> 1.0)
     orm_adapter (0.5.0)
-    parcels (0.0.1)
-      activesupport
-      sass
-      sprockets
     pg (0.17.1)
     polyglot (0.3.5)
     rack (1.5.2)
@@ -162,12 +156,10 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   devise (~> 3.1.0.rc2)
-  fortitude
   jbuilder (~> 2.0)
   jquery-rails
   mixpanel-ruby
   omniauth
-  parcels
   pg
   rack-timeout
   rails (= 4.1.1)
