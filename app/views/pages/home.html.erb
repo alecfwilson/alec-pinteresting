@@ -6,6 +6,7 @@
       <%= link_to "Pins", pins_path, class: "btn btn-primary btn-lg" %>
  <% else %>
    <p><%= ['relax','observe','analyze','learn'].sample %></p>
+
    <p>
      <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
      <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>

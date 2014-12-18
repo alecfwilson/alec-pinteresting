@@ -14,6 +14,8 @@ gem 'devise', '~> 3.1.0.rc2'
 gem 'mixpanel-ruby'
 gem 'sitemap_generator'
 gem 'whenever', :require => false
+gem 'fortitude'
+gem 'parcels'
 
 group :doc do
 	gem 'sdoc', require: false          
