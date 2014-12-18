@@ -16,6 +16,8 @@ gem 'sitemap_generator'
 gem 'whenever', :require => false
 gem 'fortitude'
 gem 'parcels'
+gem 'unicorn'
+gem 'rack-timeout'
 
 group :doc do
 	gem 'sdoc', require: false          
